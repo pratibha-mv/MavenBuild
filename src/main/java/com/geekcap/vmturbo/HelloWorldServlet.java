@@ -11,6 +11,7 @@ public class HelloWorldServlet extends HttpServlet
     PrintWriter out = res.getWriter();
     out.println( "Hello, World!" );
     out.println( "Let's Explore the updates!" );
+    out.println( "Automatically triggers the build!" );
     out.close();
   }
 }
